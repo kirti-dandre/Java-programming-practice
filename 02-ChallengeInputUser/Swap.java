@@ -24,5 +24,6 @@ public class Swap {
   sub = mull;
   System.out.println("The value of A is: "+add);
   System.out.println("The value of B is: "+sub);
+  input.close();
   }
   }

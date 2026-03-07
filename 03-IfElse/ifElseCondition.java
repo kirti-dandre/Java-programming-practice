@@ -5,7 +5,7 @@ public class ifElseCondition {
     System.out.println("before if");
     if(isMale){
       System.out.println("Mr."+name);
-    }else{
+    }else {
       System.out.println("Ms."+name);
     }
     System.out.println("after else");
@@ -16,7 +16,7 @@ public class ifElseCondition {
   boolean isAnAdult = false;
   if(isSeniorCitizen){
     System.out.println("Hello, Senior citizen!");
-  }else{
+  }else {
     if(isAnAdult){
       System.out.println("Hello, Adults!");
     }else{
