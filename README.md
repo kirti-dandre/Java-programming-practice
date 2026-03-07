@@ -1,6 +1,6 @@
 # Java-programming-practice
 This repository contains my Java practice programs.
-topics Covered:
+Topics Covered:
 - Basics
 - Operators
 - If-Else
