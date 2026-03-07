@@ -1,3 +1,11 @@
 {
-  "java.debug.settings.onBuildFailureProceed": true
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.project.sourcePaths": [
+    "05-WhileLoop",
+    "04-BitwiseOperator",
+    "03-IfElse",
+    "02-ChallengeInputUser",
+    "01-Basics",
+    "3.1-ifElseChallenge"
+  ]
 }
