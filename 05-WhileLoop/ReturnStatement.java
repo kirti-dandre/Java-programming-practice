@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class ReturnStatement {
   public static void main(String[] args) {
     patternPrinting();
-    int first = firstNumber();
-    int second = secondNumber();
+    int first = firstNumber() +1;
+    int second = secondNumber() +2;
     int sum = first + second;
     System.out.println("Sum of the number is: "+sum);
 
