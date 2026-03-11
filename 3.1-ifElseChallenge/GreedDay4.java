@@ -9,6 +9,7 @@ public class GreedDay4 {
     Scanner input = new Scanner(System.in);
     System.out.print("Please enter hour: ");
     int hour = input.nextInt();
+    input.close();
 
     if(hour < 12){
       System.out.println("Good Morning!");
