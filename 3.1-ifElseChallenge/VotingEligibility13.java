@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VotingEligibility {
+public class VotingEligibility13 {
   public static void main(String[] args) {
     
     // Check voting eligibility for a given age (18+)

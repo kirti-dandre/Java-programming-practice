@@ -18,7 +18,11 @@ public class DigitDistinct8 {
    System.out.println("Thousands digit: "+a);
    System.out.println("Hundreds digit: "+b);
    System.out.println("Ones digit: "+c);
-
+   if(a != b && b != c && c != a){
+    System.out.println("Digits are distict");
+   }else{
+    System.out.println("Digits are not distict");
+   }
   input.close();
   }
   
