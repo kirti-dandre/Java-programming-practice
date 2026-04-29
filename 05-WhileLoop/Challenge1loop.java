@@ -5,6 +5,7 @@ public class Challenge1loop {
     // Develop a program that prints the multiplication table for a given number
 
     Scanner input = new Scanner(System.in);
+    System.out.println("Welcome to Multiplication Table");
     System.out.print("Please enter the number: ");
     int number = input.nextInt();
     multiplicationTable(number);
