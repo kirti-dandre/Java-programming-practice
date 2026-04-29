@@ -9,6 +9,7 @@ public class VotingEligibility13 {
     System.out.println("Welcome to voting portal");
     System.out.print("Please enter your age: ");
     int age = input.nextInt();
+    input.close();
 
     if (age >= 18){
       System.out.println("Congrats! You are eligible to vote ");

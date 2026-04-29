@@ -16,6 +16,7 @@ public class DigitEqual10 {
     int c = number % 10;
     number = number / 10;
     int d = number % 10;
+    input.close();
 
     if(a == d){
       System.out.println("First and Last digit is equal");
