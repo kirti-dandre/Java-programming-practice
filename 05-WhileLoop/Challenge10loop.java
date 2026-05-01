@@ -34,7 +34,7 @@ public class Challenge10loop {
       result = result * number1;
       i++;
     }
-    System.out.println("Power of "+ number1 +" is"+result);
+    System.out.println("Power of "+ number1 +" is "+result);
     return result;
   }
 
