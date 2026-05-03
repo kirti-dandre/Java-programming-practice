@@ -17,6 +17,7 @@ public class ReturnStatement {
     Scanner input = new Scanner(System.in);
     System.out.print("Please enter the number: ");
     int number = input.nextInt();
+    input.close();
     return number;
   }
 }

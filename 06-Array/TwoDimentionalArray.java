@@ -9,6 +9,7 @@ public class TwoDimentionalArray {
     System.out.println(arr.length);
     //System.out.println(arr[0].length);
 
+    //Traversal
     int i = 0;
     while (i < arr.length) {
       int j = 0;
