@@ -13,7 +13,6 @@ public class ChallengeArray1 {
   }
   public static int[] inputArray() {
    try (Scanner input = new Scanner(System.in)) {
-    System.out.println("Welcome to Array Sum and Average");
     System.out.print("Please enter the number of elements: ");
     int size = input.nextInt();
     int[] number = new int[size];
