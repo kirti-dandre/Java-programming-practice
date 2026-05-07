@@ -21,12 +21,44 @@ public class ChallengeArray5 {
     delArr[i] = input.nextInt();
     i++;
   }
-  return delArr;
+  displayArray();
 }
-public static int[] deleteNumber(int[]delArr, int numTodelete){
-  
-  
-  return 0;
+public static int[]  deleteNumber(int[]delArr, int numToDelete){
+  int occ = OccurrencesArray.noOfOccurrences(delArr, numToDelete);
+  if (occ == 0) {
+    return delArr;
+  }
+  int newSize = delArr.length - occ;
+  int[] newArr = new int[newSize];
+
+  int i = 0, j = 0;
+  while (i < delArr.length)  {
+    if (delArr[i] != numToDelete) {
+      newArr[j] = delArr[i];
+      i++;
+    }
+    i++;
+  }
+  return newArr;
+}
+public static int noOfOccurrences(int[] delArr, int num){
+  int occ = 0;
+  int i = 0;
+  while (i <delArr.length) {
+    if (delArr[i] == num) {
+      occ++;
+    }
+    i++;
+  }
+  return occ;
+}
+public static void displayArray(int[] delArr) {
+  int i = 0;
+  while(i < delArr.length) {
+    System.out.print(delArr[i] + " ");
+    i++;
+  }
+  System.out.println();
 }
   
 }
