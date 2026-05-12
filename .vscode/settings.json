@@ -2,11 +2,12 @@
   "java.debug.settings.onBuildFailureProceed": true,
   "java.project.sourcePaths": [
     "3.1-ifElseChallenge",
+    "06-Array",
     "05-WhileLoop",
     "04-BitwiseOperator",
     "03-IfElse",
     "02-ChallengeInputUser",
     "01-Basics",
-    "06-Array"
+    "DSA Question"
   ]
 }
